@@ -87,7 +87,11 @@
                                             <constraint firstAttribute="height" constant="30" id="fRV-Hh-zDc"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters" autocorrectionType="no" spellCheckingType="no" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
+                                        <connections>
+                                            <action selector="doneKeyPressed:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="YEu-Xn-reJ"/>
+                                            <action selector="guessedLetterFieldChanged:" destination="BYZ-38-t0r" eventType="editingChanged" id="4YH-XR-n8X"/>
+                                        </connections>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BzP-mm-tPj">
                                         <rect key="frame" x="77" y="0.0" width="150" height="30"/>
@@ -96,7 +100,7 @@
                                         </constraints>
                                         <state key="normal" title="Guess a Letter"/>
                                         <connections>
-                                            <action selector="guessALetterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cAT-Uc-Vfi"/>
+                                            <action selector="guessLetterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cAT-Uc-Vfi"/>
                                         </connections>
                                     </button>
                                 </subviews>
