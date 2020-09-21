@@ -62,7 +62,7 @@
                                     <constraint firstItem="0HH-fx-B7f" firstAttribute="top" secondItem="uwW-NG-8Hb" secondAttribute="top" constant="4" id="iyo-i6-9ah"/>
                                 </constraints>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How Many Guesses to Uncover the Hidden Word?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mqb-Fd-FNE">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How Many Guesses to Uncover the Hidden Word?" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mqb-Fd-FNE">
                                 <rect key="frame" x="16" y="73.5" width="288" height="80"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="80" id="V3W-Mp-Fvm"/>

@@ -8,6 +8,8 @@
 import UIKit
 import AVFoundation
 
+var submit
+
 class ViewController: UIViewController {
 
     @IBOutlet weak var wordsGuessedLabel: UILabel!
